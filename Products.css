@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: rgb(193, 62, 84);
+    text-align: center;
+}
+.select{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 10px;
+}
+.cart-container{
+    color:pink;
+    button{
+        background-color: pink;
+        font-style: italic;
+    }
+}

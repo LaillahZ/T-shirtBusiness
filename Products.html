@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>L-Classy Product</title>
+    <link rel="stylesheet" href="Products.css">
+</head>
+<body>
+
+<header>
+    <h1 class="logo">L-Classy</h1>
+    <nav>
+        <a href="/Home.html">Home</a>
+        <a href="/Products.html">Shop</a>
+    </nav>
+</header>
+
+<div class="product-container">
+
+    <img src="/Stylish_black_T-shirt_with_logos-removebg-preview.png" alt="L-Classy T-Shirt" class="product-image">
+
+    <h2>L-Classy Signature Tee</h2>
+    <p class="price"></p>
+
+   <label for="color">Select color:</label>
+<select id="color">
+    <option value="black" data-img="/images/Stylish_black_T-shirt_with_logos-removebg-preview.png">Black</option>
+    <option value="white" data-img="/images/Stylish_white_T-shirt.png">White</option>
+    <option value="pink" data-img="/images/Stylish_pink_T-shirt.png">Pink</option>
+    <option value="blue" data-img="/images/Stylish_blue_T-shirt.png">Blue</option>
+</select>
+    <label for="size">Select Size:</label>
+    <select id="size">
+        <option value="">-- Choose Size --</option>
+        <option value="xs" data-price="24.99">Extra Small</option>
+        <option value="S" data-price="25.99">Small</option>
+        <option value="M" data-price="29.99">Medium</option>
+        <option value="L" data-price="34.99">Large</option>
+        <option value="XL" data-price="39.99">XL</option>
+    </select>
+   
+
+    <!-- Big Add to Cart button -->
+    <button id="addCartBtn">Add to Cart</button>
+
+</div>
+
+<!-- Cart section -->
+<div class="cart-container">
+    <h3>Your Cart</h3>
+    <ul id="cartItems"></ul>
+    <p id="cartTotal">Total: $0.00</p>
+    <button id="checkoutBtn">Checkout</button>
+</div>
+
+    <button onclick="buyNow()" class="buy-btn">Buy Now</button>
+
+</div>
+
+<script src="/javascript/script.js">javascript</script>
+</body>
+</html>
